@@ -15,7 +15,7 @@ namespace azuredeploytest.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your failing application description page.";
+            ViewBag.Message = "Your application description page.";
 
             return View();
         }
